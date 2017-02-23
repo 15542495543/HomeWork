@@ -14,18 +14,15 @@
         }
         div{
             font-family:iconfont ;
+            font-size: 22px;
+            color: dodgerblue;
+        }
+        div:hover{
+            color: crimson;
         }
     </style>
-    <script>
-        function onOver(){
-            getElementById("div").innerHTML="&#xe607;";
-        }
-        function onOut(){
-            getElementById("div").innerHTML="&#xe60a;";
-        }
-    </script>
 </head>
 <body>
-<div id="div" onmouseover="onOver();" onmouseout="onOut();">&#xe60a;</div>
+<div id="div">&#xe60a;</div>
 </body>
 </html>
